@@ -1,0 +1,5 @@
+function SHEETNAME() {
+var ss = SpreadsheetApp.getActiveSpreadsheet();
+var s = ss.getActiveRange().getSheet();
+return s.getName();
+}
